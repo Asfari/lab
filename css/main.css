@@ -1,0 +1,437 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: 'Mukta', sans-serif;
+    
+    
+    
+}
+
+
+
+.heeed {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d3246;
+   
+}
+
+.heeed .title p{
+    
+    color: white;
+    margin: 18px 35px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    
+    
+    
+}
+
+.heeed img{
+   margin:10px 0px;
+    float:inherit;
+   
+    
+    
+}
+
+
+.navbar-header{
+    
+    display: flex;
+    flex-direction: column;
+    color: gainsboro;
+    
+  
+    
+}
+
+.aa{
+    font-size: 18px;
+    margin-top: -24px;
+    color: #D62839;
+    
+    
+}
+
+
+.fix{
+    position: sticky;
+    top: 0;
+  
+  
+    width: 100%;
+    z-index: 1;
+    height: auto;
+}
+
+
+.navbar-default{
+    background-color: rgb(235 235 235 / 100%);
+    color: white;
+    margin-bottom: 0;
+    border: 1px solid black;
+    
+    
+    width: 100%;
+    z-index: 1;
+    
+   
+    
+   
+}
+
+.navbar-collapse.in{
+        overflow-y: auto;
+    background-color: rgb(235 235 235 / 80%);
+}
+
+
+.navbar-default .navbar-nav{
+   
+  margin: 0 auto;
+    margin-left: -10px;
+    height: auto;
+    transition: 0.5s;
+}
+.navbar-default .navbar-nav>li>a {
+   
+     color: #0A0A0A;
+    font-size: 18px;
+    
+   
+  
+    
+    
+ }
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    background-color: #0072A3;
+   
+}
+
+.searchTerm {
+  width: 60%;
+  border: 1px solid black;
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+
+}
+
+.searchButton {
+  width: 40px;
+  height: 37px;
+  border: 1px solid black;
+  background: #0072A3;
+  text-align: center;
+  color: #eee;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+    margin-left: -5px;
+    
+
+}
+
+.ara {
+   margin: 30px 20px;
+}
+
+.media {
+    text-align: end;
+    margin:  0 auto
+}
+
+.media .fa{
+    
+    color: black;
+    margin: 8px 10px;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+/* //header */
+
+
+/* Slider */
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    
+    width: 100%;
+    height: 480px;
+   
+    object-fit: cover;
+    animation-name: zoom;
+    animation-duration: 7s;
+    
+  filter:brightness(80%);
+
+}
+@keyframes zoom{
+    from{transform: scale(1,1);}
+    to{transform: scale(1.1,1.1);}
+}
+
+.carousel-caption{
+    margin-bottom: 150px;
+    font-size: 50px;
+    margin-left: 0;
+}
+
+/* //Slider */
+
+
+/* About us */
+
+
+.about{
+    background:linear-gradient(rgba(255,255,255,1),rgba(270,280,290,0.85)),url(../image/4.jpg) ;
+    background-size: 500px;
+    background-attachment: fixed;
+    
+    padding-top: 100px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.about img{
+    margin: 100px 50px 50px 100px ;
+    border-radius: 15px;
+}
+
+.about h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.about p{
+    margin: 30px 82px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    
+}
+
+.about button{
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    margin: 10px 80px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.about .text {
+    margin: 40px 0px;
+}
+
+/* //About us */
+
+
+
+
+
+
+
+
+
+/* Referance */
+
+
+#why{
+    background: url(../image/50.jpg) no-repeat center fixed;
+    
+   
+    background-size: cover;
+    object-fit: cover;
+    
+  
+    height:auto;
+    
+        
+}
+
+#why h1{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2.5px;
+    margin-top: 100px;
+}
+
+.card-why{
+    margin: 90px 40px;
+    padding: 15px 0px;
+    color: black;
+    background-size: 50%;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    
+}
+
+.card-why p{
+    margin: 40px 25px;
+     font-size: 13px;
+    line-height: 2em;
+}
+
+.card-why .card{
+   margin: 50px 0;
+    margin-bottom: 50px;
+}
+
+
+.card-why p span {
+    font-size: 1.7em;
+    margin-right: 0.3em;
+    color: #ddd;
+}
+
+/* //Referance */
+
+
+/*team*/
+
+.team img{
+    width: 90%;
+    
+}
+
+.team-card{
+    margin: 100px 0px;
+  
+}
+
+.team-title {
+    margin: 150px 0px;
+    font-size: 25px;
+
+}
+
+/*//team*/
+
+
+/*Services*/
+
+
+.services-box span {
+    background: #D1FAFF;
+    width: 90px;
+    height: 60px;
+    border-radius: 4px;
+    color: #2d3246;
+
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.service-card {
+    margin-bottom: 100px;
+}
+
+#services h1{
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+.service-content h3 {
+    color:  white;
+
+    font-size: 23px;
+}
+
+
+.service-content p{
+    color: white;
+    font-size: 20px;
+}
+
+a.butn-w3pvt {
+    color: #D1FAFF;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+#services{
+    height: auto;
+    background: url(../image/bg2.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+/* //services */
+
+
+/* contact */
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+   
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact {
+    height: auto;
+}
+
+/* //contact */
+
+/* footer*/
+
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    cursor: pointer;
+    color: #fff;
+}
+
+.nav-list .fa{
+    margin: 15px 15px;
+    font-size: 20px;
+    
+}
+
+/* //footer */
+
+
+
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+
+
+
+
+
